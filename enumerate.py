@@ -4,7 +4,7 @@ Enumerates - enumera iteraveis (indicies)
 
 nomes = ['Lucas', 'João', 'Bianca', 'Carlos']
 
-lista_enumerada = enumerate(nomes)
+lista_enumerada = list(enumerate(nomes))
 
-for item in lista_enumerada:
-    print(item)
+for indice, nome in lista_enumerada:
+    print(indice, nome)
